@@ -1,9 +1,9 @@
 "use client"
 import Image from "next/image";
 import { AiOutlineDown, AiOutlineInbox, AiOutlineLogout, AiOutlineNotification, AiOutlineSearch, AiOutlineSetting } from "react-icons/ai";
-import { useState} from "react"
+import { useState } from "react"
 export default function Home() {
-const [ item, setItems] = useState("random")
+  const [item, setItems] = useState("random")
   return (
     <div className=" flex  h-screen bg-white text-black ">
 
