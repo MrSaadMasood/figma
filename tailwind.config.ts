@@ -9,10 +9,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
+        myblue: "#00F5FC",
+        mpink: "#f13ad0",
+        background: "background",
         foreground: "var(--foreground)",
       },
+      dropShadow: {
+        "button": "2px 4px 6px black"
+      },
     },
+
   },
   plugins: [],
 } satisfies Config;
